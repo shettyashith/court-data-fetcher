@@ -42,14 +42,19 @@ Past queries table updates automatically
 📄 Case Result Section
 Shows the following details (if available):
 ✅ Parties involved
+
 ✅ Filing Date
+
 ✅ Next Hearing Date
+
 ✅ Link to the latest Order PDF
+
 
 📊 Past Queries Table
 Displays all saved searches
 
 Columns: ID, Case Type, Case Number, Filing Year, Parties, Filing Date, Next Hearing, Order PDF
+
 
 
 🌐 Project Setup
@@ -90,9 +95,13 @@ court-data-fetcher/
 └── README.md
 ```
 🚀 Future Improvements
+
 ✅ Add login authentication for personalized queries
+
 ✅ Deploy backend and frontend
+
 ✅ Auto-solving CAPTCHA using OCR (future enhancement)
+
 
 👨‍💻 Author
 Developed by Ashith Shetty
