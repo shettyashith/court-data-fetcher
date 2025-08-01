@@ -51,53 +51,47 @@ Displays all saved searches
 
 Columns: ID, Case Type, Case Number, Filing Year, Parties, Filing Date, Next Hearing, Order PDF
 
+
 🌐 Project Setup
-Clone the Repository
-bash
-Copy code
-git clone https://github.com/shettyashith/court-data-fetcher.git
-cd court-data-fetcher
-Install Backend Dependencies
-bash
-Copy code
-cd server
-npm install
-npx playwright install chromium
-Start Backend
-bash
-Copy code
-node index.js
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/shettyashith/court-data-fetcher.git
+   cd court-data-fetcher
+   ```
+2. **Install Dependencies**:
+   ```bash
+   cd server
+   npm install
+   npx playwright install chromium
+   ```
+3. **Start Backend**:
+   ```bash
+   node index.js
+   ```
+4. **Install Dependencies**:
+   ```bash
+   cd ../client
+   npm install
+   ```
+5.**Run the Application**:
+   ```bash
+   npm run dev
+   ```
 ✅ Server will run at http://localhost:5000
 
-Install Frontend Dependencies
-bash
-Copy code
-cd ../client
-npm install
-npm run dev
-✅ Frontend runs at http://localhost:5173
 
-📦 Folder Structure
-bash
-Copy code
+## 📦 Folder Structure
+
+```plaintext
 court-data-fetcher/
-├── client/        # React frontend
-├── server/        # Node.js backend with Playwright + SQLite
-├── court_queries.db # SQLite database file
+├── client/           # React frontend
+├── server/           # Node.js backend (Express.js + Playwright + SQLite)
+├── court_queries.db  # SQLite database file
 └── README.md
-📸 Screenshots
-🔹 Home Page
-(Add a screenshot of the input form here)
-
-🔹 Case Result Display
-(Add a screenshot of a successful search result)
-
-🔹 Past Queries Table
-(Add a screenshot of the table with saved case searches)
-
+```
 🚀 Future Improvements
 ✅ Add login authentication for personalized queries
-✅ Deploy backend on Render / Railway and frontend on Vercel / Netlify
+✅ Deploy backend and frontend
 ✅ Auto-solving CAPTCHA using OCR (future enhancement)
 
 👨‍💻 Author
