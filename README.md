@@ -1,4 +1,5 @@
 🏛 Court Data Fetcher
+
 A full-stack web application that fetches Indian court case details using Playwright-based scraping and displays the results in a clean dashboard.
 It provides a simple form to search case details by Case Type, Case Number, and Filing Year, and stores all past queries in a SQLite database.
 
