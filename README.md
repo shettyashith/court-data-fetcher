@@ -3,6 +3,7 @@
 A full-stack web application that fetches Indian court case details using Playwright-based scraping and displays the results in a clean dashboard.
 It provides a simple form to search case details by Case Type, Case Number, and Filing Year, and stores all past queries in a SQLite database.
 
+
 🛠️ Tech Stack
 Frontend: React (Vite)
 
@@ -12,7 +13,9 @@ Database: SQLite3
 
 Web Scraping: Playwright (Chromium)
 
+
 🔑 Key Features
+
 1️⃣ Case Search & Scraping
 Enter Case Type, Case Number, and Filing Year
 
@@ -20,17 +23,21 @@ Uses Playwright to scrape data from the eCourts website
 
 Requires manual CAPTCHA entry for security reasons
 
+
 2️⃣ Dashboard with Past Queries
 Displays a table of all previously searched cases
 
 Shows Parties, Filing Date, Next Hearing Date, and Order PDF link
 
+
 3️⃣ Full-Stack Integration
+
 Backend API built with Express.js
 
 Stores data in SQLite for persistence
 
 Frontend built using React (Vite)
+
 
 🏠 Home Page
 A clean and simple interface to input case details
@@ -39,8 +46,10 @@ Displays results after scraping is completed
 
 Past queries table updates automatically
 
+
 📄 Case Result Section
 Shows the following details (if available):
+
 ✅ Parties involved
 
 ✅ Filing Date
@@ -82,6 +91,7 @@ Columns: ID, Case Type, Case Number, Filing Year, Parties, Filing Date, Next Hea
    ```bash
    npm run dev
    ```
+
 ✅ Server will run at http://localhost:5000
 
 
@@ -94,6 +104,8 @@ court-data-fetcher/
 ├── court_queries.db  # SQLite database file
 └── README.md
 ```
+
+
 🚀 Future Improvements
 
 ✅ Add login authentication for personalized queries
