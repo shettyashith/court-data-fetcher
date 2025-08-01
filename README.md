@@ -4,7 +4,8 @@ A full-stack web application that fetches Indian court case details using Playwr
 It provides a simple form to search case details by Case Type, Case Number, and Filing Year, and stores all past queries in a SQLite database.
 
 
-🛠️ Tech Stack
+🛠️ Tech Stack:
+
 Frontend: React (Vite)
 
 Backend: Node.js, Express.js
@@ -14,7 +15,7 @@ Database: SQLite3
 Web Scraping: Playwright (Chromium)
 
 
-🔑 Key Features
+🔑 Key Features:
 
 1️⃣ Case Search & Scraping
 Enter Case Type, Case Number, and Filing Year
@@ -39,7 +40,8 @@ Stores data in SQLite for persistence
 Frontend built using React (Vite)
 
 
-🏠 Home Page
+🏠 Home Page:
+
 A clean and simple interface to input case details
 
 Displays results after scraping is completed
@@ -47,7 +49,8 @@ Displays results after scraping is completed
 Past queries table updates automatically
 
 
-📄 Case Result Section
+📄 Case Result Section:
+
 Shows the following details (if available):
 
 ✅ Parties involved
@@ -59,14 +62,15 @@ Shows the following details (if available):
 ✅ Link to the latest Order PDF
 
 
-📊 Past Queries Table
+📊 Past Queries Table:
+
 Displays all saved searches
 
 Columns: ID, Case Type, Case Number, Filing Year, Parties, Filing Date, Next Hearing, Order PDF
 
 
 
-🌐 Project Setup
+🌐 Project Setup:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/shettyashith/court-data-fetcher.git
@@ -106,7 +110,7 @@ court-data-fetcher/
 ```
 
 
-🚀 Future Improvements
+🚀 Future Improvements:
 
 ✅ Add login authentication for personalized queries
 
@@ -115,6 +119,6 @@ court-data-fetcher/
 ✅ Auto-solving CAPTCHA using OCR (future enhancement)
 
 
-👨‍💻 Author
+👨‍💻 Author:
 Developed by Ashith Shetty
 🔗 hithub.com/shettyashith
